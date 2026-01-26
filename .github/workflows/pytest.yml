@@ -1,12 +1,12 @@
 
 # ============================================
-# CI/CD Pipeline (Single Workflow)
+# CI/CD Pipeline using GitHub Actions
 # - CI: Run tests on pull requests to main
 # - CD: After merge to main, print "Ready for deployment" message
 # - Deploy to staging and production sequentially (note: staging/production deployment is simulated)
 # ============================================
 
-name: CI/CD Pipeline (PR Tests + Deployment Message)
+name: CI/CD Pipeline
 
 # Trigger workflow on:
 # - Pull requests targeting main (CI phase)
