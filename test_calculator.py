@@ -8,10 +8,10 @@ class TestCalculator:
     
     '''Writing test cases for all methods in the Calculator class.'''
     def test_add(self):
-        assert self.calculator.add(2, 3) == 5
+        assert self.calculator.add(2, 5) == 7
     
     def test_divide(self):
-        assert self.calculator.divide(6, 3) == 2
+        assert self.calculator.divide(9, 3) == 3
     
     
     
